@@ -1,0 +1,29 @@
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.header,
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cta {
+    background-color: #0099ff;
+    color: #fff;
+    padding: 10px 20px;
+    text-align: center;
+    border: none;
+    cursor: pointer;
+}
+
+.section {
+    margin-bottom: 20px;
+}

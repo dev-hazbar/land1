@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg">
+    <defs>
+        <font id="MyFont" horiz-adv-x="1000">
+            <font-face font-family="MyFont" units-per-em="1000" ascent="800" descent="200" />
+            
+            <!-- Glyph para la letra "A" (un triángulo simple) -->
+            <glyph unicode="A" d="M12 2l2.4 7.2h7.6l-6.4 4.8 2.4 7.2-6.4-4.8-6.4 4.8 2.4-7.2-6.4-4.8h7.6z" />
+            
+            <!-- Glyph para la letra "B" (un rectángulo) -->
+            <glyph unicode="B" d="M0 200 L0 800 L500 800 L500 200 Z" />
+        </font>
+    </defs>
+
+    <path d="M0 200 L0 800 L500 800 L500 200 Z"/>
+</svg>

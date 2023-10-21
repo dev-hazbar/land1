@@ -1,0 +1,151 @@
+/* @import "https://www.nerdfonts.com/assets/css/webfont.css"; */
+
+:root {
+    --background-color: #232323;
+    --main-color: #9dff58;
+    --main-color: #02c39a;
+}
+
+body {
+    font-family: 'NerdFontsSymbols Nerd Font', 'Courier New', monospace;
+    margin: 0;
+    padding: 0;
+    background-color: #232323;
+    color: var(--main-color);
+    line-height: 1.5;
+}
+
+.container {
+    max-width: 980px;
+    margin: auto;
+    padding: 20px;
+}
+
+.header, .footer {
+    background-color:
+    #1b1b1b;
+    color: var(--main-color);
+    padding: 15px 0;
+    text-align: center;
+    border-bottom: 3px solid var(--main-color);
+}
+
+.header img {
+    display: block;
+    margin: 0 auto 15px auto;
+    border-radius: 50%;
+    max-width: 90px;
+    border: 3px solid var(--main-color);
+
+}
+
+h1, h2 {
+    margin-top: 0;
+    border-bottom: 2px dashed var(--main-color);
+    display: inline-block;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 10px;
+    padding-left: 0px;
+    position: relative;
+}
+
+li:before {
+    content: '> ';
+    /* position: absolute; */
+    /* left: 0; */
+    /* padding-left: 0; */
+    color: var(--main-color);
+}
+
+dt {
+    font-weight: 900;
+    color: #9ad8cbcc;
+    margin-bottom: 8px;
+    margin-top: 15px;
+}
+
+dd {
+    margin-bottom: 10px;
+}
+
+dd dt {
+    color: #50ccb3cc;
+    font-weight: 900;
+    font-style: italic;
+}
+
+.cta {
+    display: inline-block;
+    background-color: var(--main-color);
+    color: #1b1b1b;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    transition: background-color 0.3s, transform 0.3s;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.cta:hover {
+    background-color: #7ecd3a;
+    transform: scale(1.05);
+}
+
+blockquote {
+    background-color: #1f1f1f;
+    padding: 10px;
+    border-left: 4px solid var(--main-color);
+    font-style: italic;
+}
+
+a {
+    color: var(--main-color);
+    text-decoration: none;
+    /* border-bottom: 1px dashed var(--main-color); */
+    transition: color 0.3s;
+}
+
+a:hover {
+    color: #7ecd3a;
+}
+
+
+.followme {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    flex-wrap: wrap;
+    padding: 15px 0;
+}
+
+.followme a {
+   display: inline-block;
+    vertical-align: middle;
+}
+
+.followme .nf {
+    font-size: 2rem;
+}
+
+.resalter-success {
+    color: rgb(18, 201, 94);
+}
+.resalter-warning {
+    color: rgb(241, 239, 88);
+}
+.resalter-danger {
+    color: rgb(218, 86, 86);
+}
+.resalter-info {
+    color: rgb(52, 202, 202);
+}
+.resalter-todo {
+    color: rgb(224, 127, 36);
+}

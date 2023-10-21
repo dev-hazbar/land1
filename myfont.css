@@ -1,0 +1,4 @@
+@font-face {
+    font-family: 'MyFont';
+    src: url('path/to/myfont.svg#MyFont') format('svg');
+}

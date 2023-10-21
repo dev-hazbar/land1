@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dev Hazbar - Software Developer</title>
+    <link rel="shortcut icon" href="./icons/doc_icon.png">
+
+    <link rel="stylesheet" href="./styles/webfonts.css">
+    <link rel="stylesheet" href="myicons_style.css">
+    <link rel="stylesheet" href="myfont">
+    <link rel="stylesheet" href="./styles/style_tech_v2.css">
+</head>
+<body>
+    <div class="container">
+        <!-- Header -->
+        <div class="header section">
+            <img src="./dev-hazbar-img.png" alt="Foto de Dev Hazbar" width="100">
+            <h1>Dev Hazbar</h1>
+            <p>Software Developer</p>
+        </div>
+
+        <!-- Bio o Introducción -->
+        <div class="section">
+            <p>
+                Desarrollador de Software Junior apasionado por la programación y el aprendizaje constante. Con habilidades en múltiples lenguajes de programación y experiencia práctica en el desarrollo web, gestión de bases de datos y metodologías ágiles. Comunicativo, colaborativo y listo para contribuir en equipos de desarrollo innovadores.
+            </p>
+        </div>
+
+        <!-- Experiencia Profesional y Educación -->
+        <!-- <div class="section">
+            <h2>Experiencia y Educación</h2>
+            <ul>
+                <li>Diseñadora Principal en ABC Company - 2020-2023</li>
+                <li>Maestría en Diseño Gráfico en XYZ University - 2018-2020</li>
+            </ul>
+        </div> -->
+
+        <!-- Habilidades y Competencias -->
+        <div class="section">
+            <h2>Habilidades</h2>
+            <dl>
+                <dt>Lenguajes de Programación</dt>
+                <dd>
+                    <ul>
+                        <li><i class="nf nf-dev-html5"></i> HTML</li>
+                        <li><i class="nf nf-md-language_javascript"></i> JavaScript</li>
+                        <li><i class="nf nf-md-language_typescript"></i> TypeScript</li>
+                        <li><i class="nf nf-dev-css3"></i> CSS</li>
+                        <li><i class="nf nf-seti-python"></i> Python</li>
+                        <li><i class="nf nf-seti-c_sharp"></i> C#</li>
+                        <li><i class="nf nf-dev-java"></i> Java</li>
+                        <li><i class="nf nf-custom-cpp"></i> C/C++</li>
+                    </ul>
+                </dd>
+
+                <dt>Herramientas y Tecnologías</dt>
+                <dd>
+                    <ul>
+                        <li><i class="nf nf-cod-terminal_bash"></i> Shell Scripting</li>
+                        <li><i class="nf nf-md-git"></i> Git(control de versiones)</li>
+                    </ul>
+                </dd>
+
+                <dt>Metodologías</dt>
+                <dd>
+                    <ul>
+                        <li><i class="nf nf-dev-scrum"></i> Scrum (Principios ágiles y gestión de proyectos)</li>
+                    </ul>
+                </dd>
+
+                <dt>Bases de Datos</dt>
+                <dd>
+                    <ul>
+                        <li><i class="nf nf-dev-database"></i> SQL (MySQL, MS SQL Server)</li>
+                        <li><i class="nf nf-dev-mongodb"></i> NoSQL (MongoDB, Couchbase)</li>
+                    </ul>
+                </dd>
+            </dl>
+        </div>
+
+        <div class="section">
+            <h2>Habilidades</h2>
+            <dl>
+                <dt>Diseño Web:</dt>
+                <dd>
+                    <ul>
+                        <li class="resalter-warning">Creación de sitios web responsive utilizando HTML, CSS y JavaScript.</li>
+                        <li class="resalter-danger">Uso de frameworks como Bootstrap y Materialize.</li>
+                    </ul>
+                </dd>
+
+                <dt>Desarrollo Backend:</dt>
+                <dd>
+                    <ul>
+                        <li class="resalter-success">Creación de APIs y servicios web con Python (Flask), C# (.NET Core) y Java (Spring Boot).</li>
+                        <li class="resalter-danger">Integración con sistemas de autenticación y gestión de sesiones.</li>
+                    </ul>
+                </dd>
+
+                <dt>Aplicaciones SPA:</dt>
+                <dd>
+                    <ul>
+                        <li class="resalter-todo">Desarrollo de aplicaciones de página única con TypeScript y frameworks como Angular.</li>
+                    </ul>
+                </dd>
+
+                <dt>Control de Versiones:</dt>
+                <dd>
+                    <ul>
+                        <li class="resalter-warning">Uso avanzado de Git: branching, merging, pull requests y manejo de conflictos.</li>
+                    </ul>
+                </dd>
+
+                <dt>Metodologías Ágiles:</dt>
+                <dd>
+                    <ul>
+                        <li class="resalter-success">Experiencia trabajando en equipos Scrum, participando en ceremonias como dailies, sprint planning y sprint review.</li>
+                    </ul>
+                </dd>
+
+                <dt>Bases de Datos:</dt>
+                <dd>
+                    <ul>
+                        <li class="resalter-success">Diseño, consulta y administración de bases de datos SQL (PostgreSQL, MySQL) y NoSQL (MongoDB).</li>
+                        <li class="resalter-success">Optimización de consultas y normalización de bases de datos.</li>
+                    </ul>
+                </dd>
+
+                <dt>Programación a Bajo Nivel:</dt>
+                <dd>
+                    <ul>
+                        <li class="resalter-info">Desarrollo de aplicaciones y utilidades en C/C++.</li>
+                        <li class="resalter-info">Manejo de memoria y optimización de rendimiento.</li>
+                    </ul>
+                </dd>
+
+                <dt>Automatización y Scripting:</dt>
+                <dd>
+                    <ul>
+                        <li class="resalter-success">Creación de scripts para automatizar tareas de administración y procesos recurrentes usando Shell Scripting.</li>
+                    </ul>
+                </dd>
+            </dl>
+
+        </div>
+
+        <div class="section">
+            <h2>Habilidades (porcentaje de mejora)</h2>
+            <dl>
+                <dt>HTML:</dt>
+                <dd class="resalter-todo">Diseñé y estructuré más de 10 sitios web interactivos y responsivos, asegurando una correcta visualización en
+                    diferentes dispositivos.</dd>
+                <dt>JavaScript:</dt>
+                <dd class="resalter-info">Implementé características dinámicas en páginas web, como carritos de compra y formularios interactivos,
+                    mejorando la experiencia del usuario en un 60%.</dd>
+                <dt>TypeScript:</dt>
+                <dd class="resalter-todo">Desarrollé una aplicación SPA de gestión de proyectos con Angular, logrando reducir los tiempos de carga en un
+                    50% en comparación con soluciones previas basadas en JavaScript.</dd>
+                <dt>CSS:</dt>
+                <dd class="resalter-success">Creé una biblioteca de componentes estilizados reutilizables que se implementaron en varios proyectos, logrando
+                    una coherencia visual y reduciendo el tiempo de desarrollo en un 20%.</dd>
+                <dt>Python:</dt>
+                <dd class="resalter-warning">Desarrollé una API RESTful con Flask que gestionaba más de 1000 solicitudes diarias, optimizando la eficiencia
+                    de la base de datos y garantizando tiempos de respuesta rápidos.</dd>
+                <dt>C#:</dt>
+                <dd>Participé en el desarrollo de una aplicación de escritorio que ayudó a automatizar procesos internos de una
+                    empresa, reduciendo el tiempo de operación en un 30%.</dd>
+                <dt>Java:</dt>
+                <dd class="resalter-todo">Colaboré en la creación de un backend con Spring Boot para una aplicación de comercio electrónico, logrando
+                    soportar hasta 10,000 usuarios simultáneos.</dd>
+                <dt>C/C++:</dt>
+                <dd>Optimicé algoritmos de procesamiento de imágenes, mejorando la velocidad de procesamiento en un 40% y reduciendo
+                    el uso de memoria.</dd>
+                <dt>Shell Scripting:</dt>
+                <dd class="resalter-todo">Automatice tareas de deployment y backups, garantizando actualizaciones sin interrupciones y salvaguardando la
+                    integridad de los datos.</dd>
+                <dt>Git:</dt>
+                <dd class="resalter-success">Lideré talleres internos sobre buenas prácticas de control de versiones, elevando la calidad y eficiencia del
+                    equipo en la gestión del código.</dd>
+                <dt>Scrum:</dt>
+                <dd class="resalter-todo">Actué como Scrum Master en 3 sprints, facilitando la comunicación del equipo y garantizando la entrega de
+                    productos dentro del plazo.</dd>
+                <dt>Administración de bases de datos SQL y NoSQL:</dt>
+                <dd>Diseñé y optimicé esquemas de bases de datos para una aplicación con alta demanda, garantizando tiempos de
+                    consulta rápidos y escalabilidad. Implementé soluciones tanto en MySQL como en MongoDB.</dd>
+            </dl>
+        </div>
+        <div class="section">
+            <h2>Habilidades (Historial de aprendizaje)</h2>
+            <dl>
+                <dt>HTML: </dt>
+            <dd class="resalter-todo">Mi base en el desarrollo web comenzó con HTML. He creado estructuras de páginas web claras y semánticamente correctas que garantizan la accesibilidad y el SEO.</dd>
+
+            <dt>JavaScript: </dt>
+            <dd class="resalter-todo">Tras entender HTML, me sumergí en JavaScript para hacer páginas web dinámicas. He trabajado en funcionalidades interactivas y tengo experiencia con bibliotecas populares como jQuery.</dd>
+
+            <dt>TypeScript: </dt>
+            <dd class="resalter-todo">Entiendo la importancia de la tipificación en proyectos grandes, así que me adentré en TypeScript. Me ha ayudado a escribir código más robusto y predecible, especialmente cuando uso frameworks como Angular.</dd>
+
+            <dt>CSS: </dt>
+            <dd class="resalter-todo">Para complementar mi habilidad en frontend, he diseñado y estilizado páginas web haciendo uso de CSS y preprocesadores como SASS. Mi enfoque siempre ha sido el diseño responsivo y la experiencia de usuario.</dd>
+
+            <dt>Python: </dt>
+            <dd class="resalter-todo">En el backend, he trabajado con Python, específicamente con frameworks como Flask. Me encanta la simplicidad y eficiencia que Python ofrece.</dd>
+
+            <dt>C# y Java: </dt>
+            <dd class="resalter-warning">Tengo experiencia en el desarrollo de aplicaciones orientadas a objetos con C# y Java, abarcando desde aplicaciones de escritorio hasta servicios web.</dd>
+
+            <dt >C/C++: </dt>
+            <dd class="resalter-warning">Para tareas que requieren alta eficiencia y rendimiento, he utilizado C y C++. Esto me ha proporcionado una comprensión profunda de la gestión de memoria y optimización.</dd>
+
+            <dt>Shell Scripting: </dt>
+            <dd class="resalter-success">He automatizado tareas repetitivas y administrado servidores usando scripts de shell, lo que me ha ahorrado innumerables horas y ha mejorado la eficiencia de los proyectos en los que he trabajado.</dd>
+
+            <dt>Git: </dt>
+            <dd class="resalter-success">Utilizo Git a diario para el control de versiones. Entiendo la importancia del trabajo en equipo y cómo gestionar y resolver conflictos en el código.</dd>
+
+            <dt>Scrum: </dt>
+            <dd class="resalter-success">He trabajado en equipos que adoptan la metodología Scrum. Esto me ha enseñado la importancia de la colaboración, la adaptabilidad y el enfoque en la entrega de valor real.</dd>
+
+            <dt>Bases de Datos SQL y NoSQL: </dt>
+            <dd class="resalter-success">He diseñado y administrado bases de datos, tanto relacionales como NoSQL. Entiendo la importancia de estructurar los datos correctamente, optimizar consultas y garantizar la integridad de los datos.</dd>
+            </dl>
+        </div>
+        <div class="section">
+            <h2>Habilidades</h2>
+            <dl>
+                <dt>HTML, CSS, y JavaScript:</dt>
+                <dd class="resalter-success">He desarrollado múltiples sitios web desde cero, estructurando contenido con HTML, estilizando con CSS y añadiendo interactividad con JavaScript. Estoy familiarizado con conceptos como el DOM, eventos y la manipulación de elementos en tiempo real.</dd>
+
+                <dt>TypeScript:</dt>
+                <dd class="resalter-success">Inicié mi aprendizaje en TypeScript al trabajar con Angular. Me ha permitido escribir código JavaScript más robusto y comprensible gracias a la introducción del tipado estático y las características de programación orientada a objetos.</dd>
+
+                <dt>Python:</dt>
+                <dd class="resalter-todo">He trabajado en varios proyectos backend utilizando frameworks como Flask y Django. Python es una de mis herramientas favoritas por su simplicidad y versatilidad.</dd>
+
+                <dt>C# y Java:</dt>
+                <dd class="resalter-warning">Durante mi formación, desarrollé aplicaciones orientadas a objetos utilizando ambos lenguajes. He creado aplicaciones simples con Windows Forms en C# y aplicaciones web con Java usando Spring Boot.</dd>
+
+                <dt>C/C++:</dt>
+                <dd class="resalter-success">Estos fueron algunos de los primeros lenguajes que aprendí. Los utilicé principalmente en cursos de estructuras de datos y programación a bajo nivel.</dd>
+
+                <dt>Shell Scripting:</dt>
+                <dd class="resalter-todo">He creado scripts básicos para automatizar tareas, como gestionar archivos y procesos o realizar backups.</dd>
+
+                <dt>Git:</dt>
+                <dd class="resalter-success">Esencial para mi flujo de trabajo diario. Estoy acostumbrado a trabajar con ramas, fusionar cambios y resolver conflictos. También he colaborado en proyectos en plataformas como GitHub y GitLab.</dd>
+
+                <dt>Scrum:</dt>
+                <dd class="resalter-success">He participado en equipos que adoptan la metodología Scrum. Estoy familiarizado con las ceremonias típicas y el papel del desarrollador dentro de un equipo ágil.</dd>
+
+                <dt>Administración de bases de datos SQL y NoSQL:</dt>
+                <dd class="resalter-danger">He diseñado esquemas y consultado bases de datos utilizando SQL. También he trabajado con bases de datos NoSQL como MongoDB para proyectos que requerían mayor flexibilidad en la estructura de datos.</dd>
+
+                <dt>Redes:</dt>
+                <dd class="resalter-success">Tengo conocimientos básicos sobre protocolos, subredes y configuraciones de red gracias a cursos introductorios en mi formación.</dd>
+
+                <dt>Docker:</dt>
+                <dd class="resalter-todo">He containerizado aplicaciones para asegurar un ambiente consistente en desarrollo y producción. Estoy familiarizado con la creación de Dockerfiles y la gestión de contenedores con Docker Compose.</dd>
+
+                <dt>AWS, Google Cloud y Azure:</dt>
+                <dd class="resalter-todo">He desplegado aplicaciones en la nube utilizando servicios básicos de estos proveedores. En AWS, he trabajado con EC2 y S3. En Google Cloud, he utilizado Compute Engine, y en Azure, he hecho uso de Azure App Services.</dd>
+            </dl>
+        </div>
+        <div class="section">
+            <h2>Habilidades</h2>
+            <dl>
+                <dt>Diseño Web: </dt>
+                <dd class="resalter-success">
+                    He diseñado y desarrollado sitios web utilizando HTML para crear estructuras semánticamente correctas, CSS para estilizar y adaptar las páginas a diferentes dispositivos, y JavaScript para agregar interactividad y dinamismo.
+                </dd>
+                <dt>Desarrollo Backend:</dt>
+                <dd>
+                    <dl>
+                        <dt>Python: </dt>
+                        <dd>Trabajé en un proyecto de comercio electrónico, creando una API RESTful con Flask, gestionando autenticación y procesos de pago.</dd>
+                        <dt>C#: </dt>
+                        <dd>Participé en el desarrollo de una aplicación interna para una empresa, utilizando .NET Core para gestionar datos y lógica de negocio.</dd>
+                        <dt>Java: </dt>
+                        <dd>Utilicé Spring Boot en una aplicación para gestionar operaciones internas de RR.HH. en una empresa multinacional.</dd>
+                    </dl>
+                </dd>
+                <dt>SPA (Single Page Applications): </dt>
+                <dd class="resalter-todo">Desarrollé aplicaciones de tipo SPA utilizando TypeScript con frameworks como Angular, garantizando una experiencia fluida para los usuarios.</dd>
+                <dt>Git: </dt>
+                <dd>
+                    He trabajado con Git en todos mis proyectos, utilizando branching, merges y pull requests para colaborar con equipos de hasta 10 desarrolladores.
+                </dd>
+                <dt>Metodología Scrum: </dt>
+                <dd class="resalter-warning">
+                    En mis anteriores roles, trabajé en equipos que adoptaron Scrum. Participé activamente en sprints, daily stand-ups, sprint reviews y retrospectivas. Esto aseguró un flujo de trabajo organizado y centrado en el usuario.
+                </dd>
+                <dt>Bases de Datos:</dt>
+                <dd>
+                    <dl>
+                        <dt>SQL: </dt>
+                        <dd>Diseñé esquemas, realicé consultas complejas y optimicé bases de datos con PostgreSQL y MySQL.</dd>
+                        <dt>NoSQL: </dt>
+                        <dd>Administré y consulté bases de datos MongoDB en proyectos donde la flexibilidad y escalabilidad eran esenciales.</dd>
+                    </dl>
+                </dl>
+                <dt>Programación a Bajo Nivel: </dt>
+                <dd>Con C/C++, desarrollé aplicaciones de procesamiento de datos y trabajé en optimizaciones relacionadas con la gestión de memoria.</dd>
+                <dt>Shell Scripting: </dt>
+                <dd class="resalter-todo">
+                    Automatizado procesos como backups de bases de datos, depuración y limpieza de archivos temporales en servidores.
+                </dd>
+                <dt>Plataformas Cloud:</dt>
+                <dd>
+                    <dl>
+                        <dt>AWS: </dt>
+                        <dd class="resalter-todo">Desplegué aplicaciones en EC2, almacené datos en S3 y utilicé RDS para bases de datos SQL.</dd>
+                        <dt>Google Cloud: </dt>
+                        <dd class="resalter-todo">Trabajé con Compute Engine y Google Kubernetes Engine para orquestar contenedores.</dd>
+                        <dt>Azure: </dt>
+                        <dd class="resalter-todo">Utilicé Azure App Services para desplegar aplicaciones web y Azure SQL Database para gestionar datos.</dd>
+                    </dl>
+                </dd>
+            </dl>
+
+        </div>
+
+
+
+        <!-- Portafolio -->
+        <div class="section">
+            <h2>Portafolio</h2>
+            <ul>
+                <li>
+                    <a href="portfolio-1.html">Proyecto 1</a>
+                </li>
+                <li>
+                    <a href="portfolio-2.html">Proyecto 2</a>
+                </li>
+            </ul>
+        </div>
+
+        <!-- Testimonios -->
+        <!-- <div class="section">
+            <h2>Testimonios</h2>
+            <blockquote>"Maria ha sido una pieza clave en la transformación de nuestra marca." - Juan Pérez, CEO de ABC Company</blockquote>
+        </div> -->
+
+        <!-- TODO - INCLUIR BOTON DE LLAMADO A LA ACCIÓN -->
+        <!-- Llamado a la Acción (CTA) -->
+        <!-- <div class="section">
+            <button class="cta" onclick="location.href='mailto:maria@email.com'">Contactarme</button>
+        </div> -->
+
+        <!-- TODO - INCLUIR CONTACTO -->
+        <!-- Información de Contacto -->
+        <!-- <div class="section">
+            <h2>Contacto</h2>
+            <p>Email: <a href="mailto:maria@email.com">maria@email.com</a></p>
+        </div> -->
+
+        <!-- Redes Sociales y Otros Enlaces -->
+        <div class="section">
+            <h2>Sígueme</h2>
+            <div class="followme">
+                <a href="#" title="linkedin"><i class="nf nf-md-linkedin"></i> linkedin</a>
+                <a href="#" title="linkedin"><i class="nf nf-fa-github_square"></i> github</a>
+                <a href="#" title="linkedin"><i class="nf nf-fa-facebook_official"></i> facebook</a>
+                <a href="#" title="linkedin"><i class="nf nf-fa-instagram"></i> instagram</a>
+                <a href="#" title="linkedin"><i class="nf nf-md-youtube"></i> youtube</a>
+                <a href="#" title="linkedin"><i class="nf nf-md-music_box"></i> tiktok
+                </a>
+            </div>
+        </div>
+
+        <!-- Footer -->
+        <div class="footer section">
+            <p>© 2023 Dev Hazbar. Todos los derechos reservados.</p>
+        </div>
+    </div>
+</body>
+</html>

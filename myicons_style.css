@@ -1,0 +1,23 @@
+.mi {
+    width: 24px;
+    height: 24px;
+    display: inline-block;
+    fill: currentColor;
+    stroke: none;
+}
+
+/* Ocultar el texto generado por el content */
+.mi::before {
+    content: "";
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+}
+
+.mi-fa-facebook_official::before {
+    background-image: url('./myicons2.svg#icon-heart');
+}
+
+.mi-fa-star::before {
+    background-image: url('./myicons2.svg#icon-star');
+}
